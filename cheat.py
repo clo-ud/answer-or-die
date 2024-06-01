@@ -27,7 +27,7 @@ answers = {
     "Name a popular Superhero" : "Captain America",
     "Name a popular fruit" : "Passion Fruit",
     "Name one of the world's most popular car colors" : "Orange",
-    "Name a popular game on Roblox" : "Natural Disaster Survival",
+    "Name a popular game on Roblox" : "TheStrongestBattleGrounds",
     "Name a popular vegetable" : "Cauliflower",
     "Name a red fruit" : "Red Passionfruit",
     "Santa's Reindeers" : "Rudolph",
@@ -37,12 +37,12 @@ answers = {
     "Name something you do at school" : "Physical Education",
     "Name something you do in your sleep" : "Nightmare",
     "Name something you eat with" : "Ice Cream Spoon",
-    "What is something you eat with yourhands" : "Chicken Nuggets",
+    "What is something you eat with your hands" : "Chicken Nuggets",
     "Name something you find on pizza" : "Mozzarella Cheese",
     "Something we know" : "Copy and Paste",
-    "Name a famous sport that is played inteams" : "American Football",
+    "Name a famous sport that is played in teams" : "American Football",
     "Santa's reindeers" : "Rudolph",
-    "Name a topping that is usually in ahamburger" : "American Cheese",
+    "Name a topping that is usually in a hamburger" : "American Cheese",
     "Name a type of transport" : "Skateboard",
     "Name a type of weather" : "Thunderstorm",
     "Name one of the world's coldest countries" : "United States of America",
@@ -90,6 +90,7 @@ while True:
         blue_bool = (blue >= 248) and (blue <= 258)
         
         if (red_bool and green_bool and blue_bool):
+            print("BOOL")
 
             im_gray = cv2.imread('screenshot.jpg', cv2.IMREAD_GRAYSCALE)
             (thresh, im_bw) = cv2.threshold(im_gray, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
