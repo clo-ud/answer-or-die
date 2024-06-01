@@ -20,7 +20,7 @@ answers = {
     "Name a food that starts with the letter P" : "Passion Fruit",
     "Name any month that has 31 days" : "December",
     "Name a musical instrument" : "Orchestral Bells",
-    "Name any natural hair color" : "Brunette",
+    "Name any natural hair color" : "strawberry blonde",
     "Name one of the four seasons" : "Autumn",
     "Name any part of the head" : "Forehead",
     "Name a planet in our solar system" : "Mercury",
@@ -43,7 +43,7 @@ answers = {
     "Name a famous sport that is played in teams" : "American Football",
     "Santa's reindeers" : "Rudolph",
     "Name a topping that is usually in a hamburger" : "American Cheese",
-    "Name a type of transport" : "Skateboard",
+    "Name a type of transport" : "Underground Funicular",
     "Name a type of weather" : "Thunderstorm",
     "Name one of the world's coldest countries" : "United States of America",
     "Name one of the world's hottest countries" : "Democratic Republic of the Congo",
@@ -85,9 +85,9 @@ while True:
         # Print the RGB values
         print(f"Red: {red}, Green: {green}, Blue: {blue}")
         
-        red_bool = (red >= 10) and (red <= 15)
-        green_bool = (green >= 55) and (green <= 65)
-        blue_bool = (blue >= 80) and (blue <= 89)
+        red_bool = (red >= 10) and (red <= 20)
+        green_bool = (green >= 53) and (green <= 68)
+        blue_bool = (blue >= 78) and (blue <= 100)
         
         if (red_bool and green_bool and blue_bool):
             print("BOOL")
