@@ -13,6 +13,7 @@ answers = {
     "Name any popular animal that starts with the letter C": "Caterpillar",
     "Name any capital city in Europe": "Andorra la Vella",
     "Name a country that starts with the letter A": "Antigua and Barbuda",
+    "Name a country that starts with the letterA": "Antigua and Barbuda",
     "Name a popular electronic device": "PlayStation Controller",
     "Name a famous Roblox Youtuber" : "Inquisitormaster",
     "Name one of the fastest animals" : "Swordfish",
@@ -50,6 +51,10 @@ answers = {
     "Name a shape" : "Parallelogram",
     "Name an animal that walks slowly" : "caterpillar",
     "Name a planet that is part of our solar system" : "Jupiter",
+    "Name one of the world's most popular carcolors" : "Orange",
+    "Name a topping that is usually inahamburger" : "American Cheese",
+    "Name one of the seven colors of the rainbow" : "orange",
+    "Name one of the seven colors of therainbow" : "orange",
 }
 
 def is_caps_lock_on():
@@ -111,6 +116,7 @@ while True:
             text = re.sub("\n", "", text)
             text = re.sub(":", "", text)
             text = re.sub("|", "", text)
+             text = re.sub("_", "", text)
             print(repr(f"Question: {text}"))
 
 
