@@ -124,9 +124,9 @@ while True:
                 print(f"The Answer: {answer}")
                 
                 # Click text box and type
-                pyautogui.click(960, 1075)
-                pyautogui.click(960, 1080)
-                pyautogui.click(960, 1085)
+                pyautogui.click(960, 900)
+                pyautogui.click(960, 910)
+                pyautogui.click(960, 905)
                 time.sleep(0.1)
                 pyautogui.typewrite(answer)
                 
