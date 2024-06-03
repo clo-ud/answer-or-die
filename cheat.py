@@ -39,6 +39,7 @@ answers = {
     "Name something you do at school" : "Physical Education",
     "Name something you do in your sleep" : "Sleep paralysis",
     "Name something you eat with" : "Ice Cream Spoon",
+    "Name something you eat with |" : "Ice Cream Spoon",
     "What is something you eat with your hands" : "Chicken Nuggets",
     "What is something you eat with yourhands" : "Chicken Nuggets",
     "Name something you find on pizza" : "Mozzarella Cheese",
