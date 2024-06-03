@@ -83,7 +83,7 @@ while True:
         blue, green, red = pixel_color
 
         # Print the RGB values
-        print(f"Red: {red}, Green: {green}, Blue: {blue}")
+        # print(f"Red: {red}, Green: {green}, Blue: {blue}")
         
         red_bool = (red >= 10) and (red <= 30)
         green_bool = (green >= 51) and (green <= 68)
@@ -133,8 +133,9 @@ while True:
                 
             except KeyError:
                 print('NOT IN ANSWERS')
+                print(text)
         else:
-            print("FAILED")
+            # print("FAILED")
 
 
 
