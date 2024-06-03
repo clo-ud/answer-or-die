@@ -63,6 +63,8 @@ while True:
     if is_caps_lock_on():
         print("Disabled")
     else:
+
+        pyautogui.displayMousePosition()
         
         """ Get Screenshot """
 
