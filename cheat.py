@@ -15,6 +15,7 @@ answers = {
     "Name a country that starts with the letter A": "Antigua and Barbuda",
     "Name a country that starts with the letterA": "Antigua and Barbuda",
     "Name a popular electronic device": "PlayStation Controller",
+    "Name a popular electronic device.a": "PlayStation Controller",
     "Name a famous Roblox Youtuber" : "Inquisitormaster",
     "Name one of the fastest animals" : "Swordfish",
     "Name an animal that can fly" : "Western Honey Bee",
@@ -25,11 +26,15 @@ answers = {
     "Name any natural hair color" : "strawberry blonde",
     "Name one of the four seasons" : "Autumn",
     "Name any part of the head" : "Forehead",
+    "Name any part of the head ," : "Forehead",
     "Name a planet in our solar system" : "Mercury",
     "Name a popular Superhero" : "Captain America",
+    "Name a popular Superhero |" : "Captain America",
     "Name a popular fruit" : "Passionfruit",
     "Name one of the world's most popular car colors" : "Orange",
+    "Name one of the world's most popular carcolorsre feue" : "Orange",
     "Name a popular game on Roblox" : "TheStrongestBattleGrounds",
+    "f| Name a popular game on Roblox" : "TheStrongestBattleGrounds",
     "Name a popular vegetable" : "Cauliflower",
     "Name a red fruit" : "Red Passionfruit",
     "Santa's Reindeers" : "Rudolph",
@@ -40,6 +45,7 @@ answers = {
     "Name something you do in your sleep" : "Sleep paralysis",
     "Name something you eat with" : "Ice Cream Spoon",
     "Name something you eat with |" : "Ice Cream Spoon",
+    "| Name something you eat with" : "Ice Cream Spoon",
     "What is something you eat with your hands" : "Chicken Nuggets",
     "What is something you eat with yourhands" : "Chicken Nuggets",
     "Name something you find on pizza" : "Mozzarella Cheese",
@@ -121,6 +127,7 @@ while True:
             text = re.sub(":", "", text)
             text = re.sub("|", "", text)
             text = re.sub("_", "", text)
+            text = re.sub('"', "", text)
             print(repr(f"Question: {text}"))
 
 
