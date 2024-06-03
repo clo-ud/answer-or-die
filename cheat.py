@@ -12,7 +12,7 @@ answers = {
     "Name a day of the week": "Wednesday",
     "Name any popular animal that starts with the letter C": "Caterpillar",
     "Name any capital city in Europe": "Andorra la Vella",
-    "Name a country that starts with the letterrN": "Antigua and Barbuda",
+    "Name a country that starts with the letter A": "Antigua and Barbuda",
     "Name a popular electronic device": "PlayStation Controller",
     "Name a famous Roblox Youtuber" : "Inquisitormaster",
     "Name one of the fastest animals" : "Swordfish",
@@ -25,7 +25,7 @@ answers = {
     "Name any part of the head" : "Forehead",
     "Name a planet in our solar system" : "Mercury",
     "Name a popular Superhero" : "Captain America",
-    "Name a popular fruit" : "Passion Fruit",
+    "Name a popular fruit" : "Passionfruit",
     "Name one of the world's most popular car colors" : "Orange",
     "Name a popular game on Roblox" : "TheStrongestBattleGrounds",
     "Name a popular vegetable" : "Cauliflower",
@@ -35,7 +35,7 @@ answers = {
     "Name something people wear" : "Contact Lenses",
     "What is something you can sit on" : "rockingchair",
     "Name something you do at school" : "Physical Education",
-    "Name something you do in your sleep" : "Nightmare",
+    "Name something you do in your sleep" : "Sleep paralysis",
     "Name something you eat with" : "Ice Cream Spoon",
     "What is something you eat with your hands" : "Chicken Nuggets",
     "Name something you find on pizza" : "Mozzarella Cheese",
@@ -49,7 +49,7 @@ answers = {
     "Name one of the world's hottest countries" : "Democratic Republic of the Congo",
     "Name a shape" : "Parallelogram",
     "Name an animal that walks slowly" : "caterpillar",
-    "Name a planet that is part of our solarsystem" : "Jupiter"
+    "Name a planet that is part of our solar system" : "Jupiter"
 }
 
 def is_caps_lock_on():
@@ -67,7 +67,7 @@ while True:
         """ Get Screenshot """
 
         # Path to the Tesseract executable (change this to your Tesseract installation path)
-        pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 
         # Capture a screenshot of the screen
         screenshot = pyautogui.screenshot(region=(565,60,800,100))
