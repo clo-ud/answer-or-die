@@ -96,9 +96,9 @@ while True:
         # Print the RGB values
         # print(f"Red: {red}, Green: {green}, Blue: {blue}")
         
-        red_bool = (red >= 10) and (red <= 30)
-        green_bool = (green >= 51) and (green <= 68)
-        blue_bool = (blue >= 78) and (blue <= 100)
+        red_bool = (red >= 5) and (red <= 40)
+        green_bool = (green >= 45) and (green <= 75)
+        blue_bool = (blue >= 60) and (blue <= 120)
         
         if (red_bool and green_bool and blue_bool):
             print("BOOL")
