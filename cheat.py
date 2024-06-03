@@ -134,17 +134,3 @@ while True:
             except KeyError:
                 print('NOT IN ANSWERS')
                 print(text)
-        else:
-            # print("FAILED")
-
-
-
-
-
-
-
-
-
-
-
-
