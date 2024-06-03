@@ -40,6 +40,7 @@ answers = {
     "Name something you do in your sleep" : "Sleep paralysis",
     "Name something you eat with" : "Ice Cream Spoon",
     "What is something you eat with your hands" : "Chicken Nuggets",
+    "What is something you eat with yourhands" : "Chicken Nuggets",
     "Name something you find on pizza" : "Mozzarella Cheese",
     "Something we know" : "Copy and Paste",
     "Name a famous sport that is played in teams" : "American Football",
