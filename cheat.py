@@ -64,7 +64,7 @@ while True:
         print("Disabled")
     else:
 
-        pyautogui.displayMousePosition()
+        # pyautogui.displayMousePosition()
         
         """ Get Screenshot """
 
