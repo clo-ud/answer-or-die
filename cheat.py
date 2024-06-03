@@ -42,6 +42,7 @@ answers = {
     "Name something you find on pizza" : "Mozzarella Cheese",
     "Something we know" : "Copy and Paste",
     "Name a famous sport that is played in teams" : "American Football",
+    "Name a famous sport that is played inteams" : "American Football",
     "Santa's reindeers" : "Rudolph",
     "Name a topping that is usually in a hamburger" : "American Cheese",
     "Name a type of transport" : "Underground Funicular",
