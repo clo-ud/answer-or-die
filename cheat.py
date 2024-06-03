@@ -116,7 +116,7 @@ while True:
             text = re.sub("\n", "", text)
             text = re.sub(":", "", text)
             text = re.sub("|", "", text)
-             text = re.sub("_", "", text)
+            text = re.sub("_", "", text)
             print(repr(f"Question: {text}"))
 
 
