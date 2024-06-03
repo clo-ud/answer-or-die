@@ -21,6 +21,7 @@ answers = {
     "Name a food that starts with the letter P" : "Passion Fruit",
     "Name any month that has 31 days" : "December",
     "Name a musical instrument" : "Orchestral Bells",
+    "Name a musical instrument |" : "Orchestral Bells",
     "Name any natural hair color" : "strawberry blonde",
     "Name one of the four seasons" : "Autumn",
     "Name any part of the head" : "Forehead",
@@ -130,9 +131,9 @@ while True:
                 print(f"The Answer: {answer}")
                 
                 # Click text box and type
-                pyautogui.click(960, 900)
+                pyautogui.click(960, 890)
                 pyautogui.click(960, 910)
-                pyautogui.click(960, 905)
+                pyautogui.click(960, 900)
                 time.sleep(0.1)
                 pyautogui.typewrite(answer)
                 
