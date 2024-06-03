@@ -70,7 +70,7 @@ while True:
         pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 
         # Capture a screenshot of the screen
-        screenshot = pyautogui.screenshot(region=(565,60,800,100))
+        screenshot = pyautogui.screenshot(region=(565,80,800,120))
 
         # Save the screenshot to a file (optional)
         screenshot.save('screenshot.jpg')
