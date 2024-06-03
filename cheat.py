@@ -50,8 +50,6 @@ answers = {
     "Name a shape" : "Parallelogram",
     "Name an animal that walks slowly" : "caterpillar",
     "Name a planet that is part of our solar system" : "Jupiter",
-    "| Name a popular electronic device": "PlayStation Controller",
-    "Name a food that starts with the letter P|" : "Passion Fruit",
 }
 
 def is_caps_lock_on():
@@ -112,6 +110,7 @@ while True:
             """ Clean input """
             text = re.sub("\n", "", text)
             text = re.sub(":", "", text)
+            text = re.sub("|", "", text)
             print(repr(f"Question: {text}"))
 
 
