@@ -49,7 +49,9 @@ answers = {
     "Name one of the world's hottest countries" : "Democratic Republic of the Congo",
     "Name a shape" : "Parallelogram",
     "Name an animal that walks slowly" : "caterpillar",
-    "Name a planet that is part of our solar system" : "Jupiter"
+    "Name a planet that is part of our solar system" : "Jupiter",
+    "| Name a popular electronic device": "PlayStation Controller",
+    "Name a food that starts with the letter P|" : "Passion Fruit",
 }
 
 def is_caps_lock_on():
@@ -107,12 +109,10 @@ while True:
 
             text = pytesseract.image_to_string('screen_bw.png')
 
-            # Print the extracted text
-            print(repr(f"Question: {text}"))
-
             """ Clean input """
             text = re.sub("\n", "", text)
-
+            text = re.sub(":", "", text)
+            print(repr(f"Question: {text}"))
 
 
             """ Get answer """
@@ -135,4 +135,3 @@ while True:
                 
             except KeyError:
                 print('NOT IN ANSWERS')
-                print(text)
