@@ -16,9 +16,11 @@ answers = {
     "Name a country that starts with the letterA": "Antigua and Barbuda",
     "Name a popular electronic device": "PlayStation Controller",
     "Name a popular electronic device.a": "PlayStation Controller",
+    "| Name a popular electronic device": "PlayStation Controller",
     "Name a famous Roblox Youtuber" : "Inquisitormaster",
     "Name one of the fastest animals" : "Swordfish",
     "Name an animal that can fly" : "Western Honey Bee",
+    "Name an animal that can fly |" : "Western Honey Bee",
     "Name a food that starts with the letter P" : "Passion Fruit",
     "Name any month that has 31 days" : "December",
     "Name a musical instrument" : "Orchestral Bells",
@@ -38,6 +40,7 @@ answers = {
     "Name a popular vegetable" : "Cauliflower",
     "Name a popular vegetable |" : "Cauliflower",
     "Name a red fruit" : "Red Passionfruit",
+    "Name ared fruit" : "Red Passionfruit",
     "Santa's Reindeers" : "Rudolph",
     "Name a social media app" : "Facebook Messenger",
     "Name something people wear" : "Contact Lenses",
@@ -130,6 +133,9 @@ while True:
             text = re.sub("|", "", text)
             text = re.sub("_", "", text)
             text = re.sub('"', "", text)
+            
+            text = text.replace("|", "")
+            
             print(repr(f"Question: {text}"))
 
 
