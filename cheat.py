@@ -18,7 +18,7 @@ answers = {
     "Name a popular electronic device.a": "PlayStation Controller",
     "| Name a popular electronic device": "PlayStation Controller",
     "Name a famous Roblox Youtuber" : "Inquisitormaster",
-    "Name one of the fastest animals" : "Swordfish",
+    "Name one of the fastest animals" : "peregrine falcon",
     "Name an animal that can fly" : "Western Honey Bee",
     "Name an animal that can fly |" : "Western Honey Bee",
     "Name a food that starts with the letter P" : "Passion Fruit",
