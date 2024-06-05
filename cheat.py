@@ -137,6 +137,7 @@ while True:
             
             text = text.replace("|", "")
             text = text.rstrip(" ")
+            text = text.lstrip(" ")
             
             print(repr(f"Question: {text}"))
 
