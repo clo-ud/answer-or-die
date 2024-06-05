@@ -24,6 +24,7 @@ answers = {
     "Name a food that starts with the letter P" : "Passion Fruit",
     "Name any month that has 31 days" : "December",
     "Name a musical instrument" : "Orchestral Bells",
+    "Name a musical instrument " : "Orchestral Bells",
     "Name a musical instrument |" : "Orchestral Bells",
     "Name any natural hair color" : "strawberry blonde",
     "Name one of the four seasons" : "Autumn",
@@ -135,6 +136,7 @@ while True:
             text = re.sub('"', "", text)
             
             text = text.replace("|", "")
+            text = text.rstrip(" ")
             
             print(repr(f"Question: {text}"))
 
